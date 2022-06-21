@@ -31,10 +31,9 @@ Telefônica), utilizando (preferencialmente e não obrigatório) as seguintes te
 Desenvolver a sua própria Landing Page ou Portifólio falando sobre você, conquistas, cursos,
 experiências... utilizando preferencialmente as seguintes tecnologias:
 
-- ReactJS (desejável)
 - HTML
 - CSS
-- Javascript
+- Javascript(Desejável)
  
 # Observações
 Se ainda não souber utilizar o Git e o Github, aproveite a oportunidade para aprender. São ferramentas essenciais para o mercado de trabalho e você terá que utiliza-las de um jeito ou de outro no futuro.
