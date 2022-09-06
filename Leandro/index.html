@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Leandro Freire">
+  <meta name="description" content="portifólio do desenvolvedor front-end Leandro F. Cabral">
+  <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+  <title>Leandro Freire</title>
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu main-bg">
+    <div class="menu-content">
+      <h1 id="logo">
+        <a href="#home">&lsaquo;LF/&rsaquo;</a>
+      </h1>
+
+      <nav  id="menu-elements">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#sobre-mim">sobre</a></li>
+          <li><a href="#formacao">formação</a></li>
+          <li><a href="#projetos">projetos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="main-bg intro">
+      <div class="intro-text-content">
+        <h2>olá, eu sou</h2>
+        <h1 class="type-write">Leandro Freire</h1>
+        <h2>desenvolvedor front-end</h2>
+
+        <div class="media-buttons">
+          <div id="linkedin">
+            <a href="https://www.linkedin.com/in/leandro-cabral-2aab41205">
+              <img src="assets/img/linkedin.png" alt="ícone do linkedin">
+            </a>
+          </div>
+          <div id="github">
+            <a href="https://github.com/lendrw">
+              <img src="assets/img/github.png" alt="ícone do github">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/undraw_developer_activity_re_39tg.svg" alt="ilustração de um dev em uma mesa de escritório atrás do monitor, usando headphones">
+      </div>
+  </section>
+
+  <section id="sobre-mim" class="lighter-bg sobre-mim" data-anime="right">
+      <div class="sobre-mim-img">
+        <img src="assets/img/eu.png" alt="Leandro Freire, sorrindo, cabelo curto e cacheado, usando um óculos redondo e um brinco preto na orelha direita">
+      </div>
+      <div class="sobre-mim-text">
+          <h1>Sobre mim</h1>
+          <h2>Carnaubais, Rio Grande do Norte</h2>
+          <p>Olá! Sou Técnico em Informática, formado pelo ensino médio técnico, onde despertei meu interesse por programação, e atualmente estou me dedicando aos estudos, para que futuramente possa me tornar um desenvolvedor front-end. Estou cursando Sistemas de Informação na UFERSA, onde dou meus primeiros passos para me tornar um dev.</p>
+          <div class="sobre-mim-button">
+            <a href="mailto: leandrocabral321@gmail.com?subject=Leandro, vim pelo seu portifólio! :)">
+              <div class="sobre-mim-button-email">
+                <img src="assets/img/email.png" alt="logo de email">
+                <p>E-mail</p>
+              </div>
+            </a>
+          </div>
+      </div>
+  </section>
+
+  <section id="formacao" class="main-bg formacao" data-anime="down">
+    <h1>formação</h1>
+    <div class="formacao-wrapper">
+      <section class="formacao-list">
+        <ul data-tab="menu">
+          <li>CEEP</li>
+          <li>UFERSA</li>
+          <li>Cursos</li>
+        </ul>
+      </section>
+
+      <div class="formacao-desc" data-tab="content">
+        <section data-anime="right">
+          <h2>Técnico em informática</h2>
+          <p class="formacao-desc-local">Ensino médio técnico</p>
+          <p>Concluí o ensino médio em uma escola técnica, com o curso de Informática integrado, sendo o local onde tive o primeiro contato com programação e decidi seguir na área.</p>
+        </section>
+
+        <section data-anime="right">
+          <h2>Futuro Bacharel em Sistemas de Informação</h2>
+          <p class="formacao-desc-local">Em graduação :)</p>
+          <p>Com meu interesse em programação, decidi entrar no curso de sistemas. Durante o curso, por um bom tempo eu estava incerto sobre qual área investir, mas após pagar a disciplina de Programação web, onde tive que desenvolver uma interface para um site, meu interesse pelo desenvolvimento front-end despertou.</p>
+        </section>
+
+        <section data-anime="right">
+          <h2>Dev front-end</h2>
+          <p class="formacao-desc-local">Jovem gafanhoto em aprendizado 🦗</p>
+          <p>Comecei com os cursos introdutórios de html, CSS e JavaScript do Gustavo Guanabara. Atualmente estou realizando o curso de JavaScript e TypeScript da Udemy.</p>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="lighter-bg projetos"  data-anime="down">
+
+    <h1>Projetos</h1>
+
+        <div class="projetos-wrapper">
+
+          <section class="projetos-card">
+            <a href="https://lendrw.github.io/Pokedex/" target="_blank">
+              <img src="assets/img/projeto_pokedex.png" alt="" class="projeto-img"/>
+            </a>
+            <h2>Pokédex</h2>
+            <p>
+              Projeto realizado consumindo uma API de Pokémon.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JavaScript</span>
+            <a href="https://lendrw.github.io/Pokedex" target="_blank">
+              <div class="projetos-card-button">
+                <img src="./assets/img/link.png" alt="Imagem logo do pokémon representando meu projeto">
+                Visualizar
+              </div>
+            </a>
+          </section>
+
+          <section class="projetos-card">
+            <a href="https://lendrw.github.io/Pokedex/" target="_blank">
+            <img src="assets/img/projeto_pokedex.png" alt="" class="projeto-img"/>
+            </a>
+            <h2>Pokédex</h2>
+            <p>
+              Projeto realizado consumindo uma API de Pokémon.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JavaScript</span>
+            <a href="https://lendrw.github.io/Pokedex" target="_blank">
+              <div class="projetos-card-button">
+                <img src="./assets/img/link.png" alt="Imagem logo do pokémon representando meu projeto">
+                Visualizar
+              </div>
+            </a>
+          </section>
+
+          <section class="projetos-card">
+            <a href="https://lendrw.github.io/Pokedex/" target="_blank">
+            <img src="assets/img/projeto_pokedex.png" alt="" class="projeto-img"/>
+            </a>
+            <h2>Pokédex</h2>
+            <p>
+              Projeto realizado consumindo uma API de Pokémon.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JavaScript</span>
+            <a href="https://lendrw.github.io/Pokedex" target="_blank">
+              <div class="projetos-card-button">
+                <img src="./assets/img/link.png" alt="Imagem logo do pokémon representando meu projeto">
+                Visualizar
+              </div>
+            </a>
+          </section>
+
+          <section class="projetos-card">
+            <a href="https://lendrw.github.io/Pokedex/" target="_blank">
+            <img src="assets/img/projeto_pokedex.png" alt="" class="projeto-img"/>
+            </a>
+            <h2>Pokédex</h2>
+            <p>
+              Projeto realizado consumindo uma API de Pokémon.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JavaScript</span>
+            <a href="https://lendrw.github.io/Pokedex" target="_blank">
+              <div class="projetos-card-button">
+                <img src="./assets/img/link.png" alt="Imagem logo do pokémon representando meu projeto">
+                Visualizar
+              </div>
+            </a>
+          </section>
+        </div>
+  </section>
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="">Feito com <span class="heart">❤</span> por Leandro Freire</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#home">➤</a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
