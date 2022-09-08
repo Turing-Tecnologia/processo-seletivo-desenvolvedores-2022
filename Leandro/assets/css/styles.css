@@ -736,7 +736,12 @@
     .formacao-list ul li.active {
         border-left: none;
         border-bottom: 2px solid var(--neon-color);
-      }
+    }
+
+    .formacao-desc {
+      margin-top: 3rem;
+      margin-left: 0;
+    }
   
     h1 {
       font-size: 3.4rem;
