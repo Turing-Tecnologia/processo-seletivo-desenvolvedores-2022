@@ -1,8 +1,7 @@
 package Ufersa.example.Test.API.controllers;
 
 import java.util.List;
-
-
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -39,6 +38,12 @@ public class APIController {
     @GetMapping
     public List<Carro> listagem(){
         return cr.findAll();
+    }
+    
+    @ApiOperation(value="Retorna um carro conforme o id especificado")
+    @GetMapping("/{id}")
+    public Optional<Carro> buscarCarro(@PathVariable Long id){
+        return cr.findById(id);
     }
 
     @ApiOperation(value="Deleta um Carro pelo id")
