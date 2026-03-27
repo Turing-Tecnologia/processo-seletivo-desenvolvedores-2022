@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
+
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="assets/imagens/foto-dev.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Front-end web Development</h1>
+                <p>Marcos Henrique</p>
+                <button>Saiba mais</button>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Já sei um pouco sobre HTML, tenho 40% de conhecimento sobre. Meus primeiros passos no front
+                            foi com essa linguagem de marcação.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Tenho 20% de conhecimento sobre CSS. Já tenho um pouco de conhecimento sobre essa linguagem
+                            de estilo, quero estudar mais e mais sobre. É muito satisfatório essa linguagem.</p>
+                    </div>
+                </div>
+                <!--Javascript -->
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Sobre Javascript, tenho 10% de conhecimento. Meu foco é estudar mais sobre essa linguagem
+                            para ter uma base boa
+                            pra depois seguir nos estudos com React.
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Tenho 10% de conhecimento sobre essas ferramentas de versionamento de códigos. Quero me
+                            aprofundar mais.</p>
+                    </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                    <img src="assets/imagens/foto-conhecimentos.png" alt="imagem conhecimento">
+                </div>
+            </div>
+        </section>
+        <!--Sessão de projetos -->
+        <section class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/imagens/landing-page-simples.png" alt="imagem da landing page" />
+                    </div>
+                    <div class="card-info">
+                        <h2>landing page </h2>
+                        <h3>HTML, CSS</h3>
+                        <p>Landing Page simples. Utilizando transitions como animações, e com HTML e CSS</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/imagens/calculadora-simples.png" alt="imagem do projeto calculadora" />
+                    </div>
+                    <div class="card-info">
+                        <h2>Calculadora</h2>
+                        <h3>HTML, CSS, Javascript</h3>
+                        <p>Esse foi um dos meus primeiros projetos, uma calculadora muito simples. Apenas para somar,
+                            subtrair,
+                            multiplicar e dividir.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/imagens/site-academia.png" alt="imagem do site da academia" />
+                    </div>
+                    <div class="card-info">
+                        <h2>Site academia</h2>
+                        <h3>HTML, CSS</h3>
+                        <p>Site de uma academia, para exercitar o HTML e CSS</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2022, MARCOS HENRIQUE - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li class="li"><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        <li class="li"><a href=""><i class="fab fa-github"></i></a></li>
+                        <li class="li"><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+      <a href="#home" id="link-topo">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>  
+</body>
+<script src="assets/js/script.js"></script>
+
+</html>
